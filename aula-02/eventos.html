@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exemplos de Eventos no DOM</title>
+  </head>
+  <body>
+    <button id="btn-alert">Clique em mim</button>
+
+    <form id="form-exemplo">
+      <input type="text" placeholder="Digite algo" required />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+      const botao = document.getElementById('btn-alert');
+      botao.addEventListener('click', () => {
+        alert('Você clicou no botão!');
+      });
+    </script>
+  </body>
+</html>

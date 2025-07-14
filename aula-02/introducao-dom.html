@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exemplo 01</title>
+  </head>
+  <body>
+    <h1 id="titulo">Bem-vindo</h1>
+    <p class="mensagem">Essa é uma mensagem inicial.</p>
+    <button onclick="alterarMensagem()">Clique aqui</button>
+
+    <script>
+      function alterarMensagem() {
+        const p = document.querySelector('.mensagem');
+        p.textContent = 'Você clicou no botão!';
+      }
+    </script>
+  </body>
+</html>
