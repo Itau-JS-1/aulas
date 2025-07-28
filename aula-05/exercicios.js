@@ -37,4 +37,4 @@ mostrarMensagem(undefined, 'Marcos');
 function criarProduto({ nome = 'Produto', preco = 0, disponivel = true }) {
   console.log('Nome:', nome, 'Preço:', preco, 'Disponível:', disponivel);
 }
-criarProduto({});
+criarProduto();
